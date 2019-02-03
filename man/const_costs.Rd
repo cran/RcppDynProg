@@ -19,7 +19,7 @@ const_costs(y, w, min_seg, indices)
 xcosts NumericMatix, for j>=i xcosts(i,j) is the cost of partition element [i,...,j] (inclusive).
 }
 \description{
-Built matrix of interval costs for held-out means.
+Built matrix of total out of sample interval square error costs for held-out means.
 One indexed.
 }
 \examples{

@@ -165,15 +165,10 @@ A note on problem complexity: general partition problems (where we do not restri
 
 ------------------------------------------------------------------------
 
-Note: this packages is not yet up on `CRAN`, the following will install the package from [`Github`](https://github.com/WinVector/RcppDynProg):
+`RcppDynProg` can be installed from `CRAN` with:
 
 ``` r
-# install dependencies
-install.packages(c("wrapr", "Rcpp", "RcppArmadillo"))
-# install devtools
-install.packages("devtools")
-# install RcppDynProg
-devtools::install_github("WinVector/RcppDynProg")
+install.packages("RcppDynProg")
 ```
 
 ------------------------------------------------------------------------
@@ -182,6 +177,6 @@ Some other relevant segmentation and dynamic programming methods include:
 
 -   Piecewise or [segmented regression](https://en.wikipedia.org/wiki/Segmented_regression) in general.
 -   [`GAM`](https://CRAN.R-project.org/package=gam), [`mgcv`](https://CRAN.R-project.org/package=mgcv), [quantile segmentation](https://github.com/WinVector/vtreat/blob/master/R/segmented_variable.R), [`spline`](https://github.com/WinVector/vtreat/blob/master/R/spline_variable.R) methods.
--   The [`segmented` package](https://CRAN.R-project.org/package=segmented) break-point/change-point regression package.
--   *l*<sub>1</sub> Trend Filtering, which we discuss [here](https://github.com/WinVector/RcppDynProg/blob/master/extras/sp500_example.pdf).
+-   The [`segmented` package](https://CRAN.R-project.org/package=segmented) break-point/change-point regression package (worked example [here](https://github.com/WinVector/RcppDynProg/blob/master/extras/sp500/segmented_Example.md)).
+-   *l*<sub>1</sub> Trend Filtering, which we discuss [here](https://github.com/WinVector/RcppDynProg/blob/master/extras/sp500/sp500_example.pdf).
 -   The [`dynprog` package](https://CRAN.R-project.org/package=dynprog), which is a general DSL based memoizer.

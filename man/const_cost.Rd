@@ -21,7 +21,7 @@ const_cost(y, w, min_seg, i, j)
 scalar, const cost of [i,...,j] interval (inclusive).
 }
 \description{
-Calculate cost of using mean of points to estimate other points in interval.
+Calculate out of sample total square error cost of using mean of points to estimate other points in interval.
 Zero indexed.
 }
 \examples{
