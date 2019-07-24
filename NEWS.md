@@ -1,4 +1,8 @@
 
+# RcppDynProg 0.1.3 2019/07/24
+
+ * Adjust license.
+
 # RcppDynProg 0.1.2 2019/03/31
 
  * Clean up testing pattern a bit.
