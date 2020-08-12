@@ -1,4 +1,4 @@
-## ----r1, fig.height = 6, fig.width = 8, fig.align = "center"-------------
+## ----r1, fig.height = 6, fig.width = 8, fig.align = "center"------------------
 library("RcppDynProg")
 
 
@@ -25,16 +25,16 @@ print(x_cuts)
 d$estimate <- approx(x_cuts$x, x_cuts$pred, xout = d$x, method = "linear", rule = 2)$y
 d$group <- as.character(findInterval(d$x, x_cuts[x_cuts$what=="left", "x"]))
 
-## ----r2, fig.height = 6, fig.width = 8, fig.align = "center"-------------
+## ----r2, fig.height = 6, fig.width = 8, fig.align = "center"------------------
 print(sum((d$y_observed - d$y_ideal)^2))
 
-## ----r3, fig.height = 6, fig.width = 8, fig.align = "center"-------------
+## ----r3, fig.height = 6, fig.width = 8, fig.align = "center"------------------
 print(sum((d$estimate - d$y_ideal)^2))
 
-## ----r4, fig.height = 6, fig.width = 8, fig.align = "center"-------------
+## ----r4, fig.height = 6, fig.width = 8, fig.align = "center"------------------
 print(sum((d$estimate - d$y_observed)^2))
 
-## ----r5, fig.height = 6, fig.width = 8, fig.align = "center"-------------
+## ----r5, fig.height = 6, fig.width = 8, fig.align = "center"------------------
 
 # plot
 plot(d$x, d$y_observed,

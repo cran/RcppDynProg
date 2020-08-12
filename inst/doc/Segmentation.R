@@ -1,4 +1,4 @@
-## ----r1, fig.height = 6, fig.width = 8, fig.align = "center"-------------
+## ----r1, fig.height = 6, fig.width = 8, fig.align = "center"------------------
 library("RcppDynProg")
 
 
@@ -19,7 +19,7 @@ lines(d$x, d$y_ideal,
      type = "l",
      lty = "dashed")
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 y_permuted <- d$y_ideal[sample.int(nrow(d), nrow(d), replace = FALSE)]
 
 
@@ -50,7 +50,7 @@ while(TRUE) {
 }
 print(ub)
 
-## ----r5, fig.height = 6, fig.width = 8, fig.align = "center"-------------
+## ----r5, fig.height = 6, fig.width = 8, fig.align = "center"------------------
 soln <- solve_with_penalty(d$y_observed, ub)
 print(soln)
 
@@ -92,7 +92,7 @@ for(gi in groups) {
   lines(di$x, di$estimate, col = cmap[di$group[[1]]], lwd=2)
 }
 
-## ----r2, fig.height = 6, fig.width = 8, fig.align = "center"-------------
+## ----r2, fig.height = 6, fig.width = 8, fig.align = "center"------------------
 # x_cuts <- solve_for_partition(d$x, d$y_observed)
 # sometimes a different penalty due to problem chunking
 x_cuts <- solve_for_partitionc(d$x, d$y_observed, penalty = ub)
