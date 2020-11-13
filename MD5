@@ -1,9 +1,8 @@
-79a3e386f954a7d10581addf3842d2ad *DESCRIPTION
-b023393613f9aba39a6c562011284b8d *NAMESPACE
-9c0732a9fb52076e391e834b7d95dc82 *NEWS.md
+f8ec7639248a234cc978ca485a6a724d *DESCRIPTION
+0768cb45956a9d97bdaa9b1a91610bc2 *NAMESPACE
+9db775bce9bd9285d3054fc1397cd502 *NEWS.md
 5a878644b8953208407d321608e1cafa *R/RcppExports.R
 5ec7ff1128cec67bd9347ac87625889c *R/package.R
-e954ab17f7d807a975c1cd5bb6f8c2ed *R/run_package_tests.R
 aeabb6ea5052f6df5cfce0c1e2f7ebbc *R/solve_dyn_R.R
 7ae8690c5468b0150adb619b2b21184d *R/solve_for_partition.R
 024f3d831ee8dc4d3ce6b1b4db430c09 *R/utils.R
@@ -14,13 +13,13 @@ de11ed95ea1cebd77170e86030949874 *R/xlin_fits_R.R
 9fd798a5612ae12cdd405afb43d70615 *README.md
 1672ac9a94a48d92cc26e3a0906b7979 *build/vignette.rds
 5306b74342afba57dc2ac0f0cee01264 *inst/doc/RcppDynProg.Rmd
-773ace1cd081e6cb8afb9510048a115f *inst/doc/RcppDynProg.html
+3d3ce5953337a5a2b25200b39a96173c *inst/doc/RcppDynProg.html
 83b5b9d2c65ce1716d0c60db29cf163c *inst/doc/Segmentation.R
 2383e6a11099dc0a184e8ab9bcdf3c77 *inst/doc/Segmentation.Rmd
-1ac2e32488853cd67e0cea3dc62aeaba *inst/doc/Segmentation.html
+48c1ce81ae396673fbf614e41aacfeb5 *inst/doc/Segmentation.html
 0d5f6ac0541a9110ebf5212929833e9b *inst/doc/SegmentationL.R
 bb9eee2c6b82f1e1f89d5fbc4f42b9e4 *inst/doc/SegmentationL.Rmd
-45d9606471cc74897051cec66d78a91d *inst/doc/SegmentationL.html
+3e932e93dff49403788a1bc3224b2a0c *inst/doc/SegmentationL.html
 1e4b0f59b2302e459af9efcdb5ffbab6 *inst/tinytest/test_const_cost.R
 c1f4212ae6410e00ef5d0f1bc1988708 *inst/tinytest/test_dynprog1.R
 4624153b47ed851b623398e03dda3a24 *inst/tinytest/test_lin_cost.R
@@ -45,7 +44,6 @@ fe8ac31ce75239932200cce0762facb6 *man/logistic_solve1.Rd
 2bbd783f9568fd30f9a5521e5d498b86 *man/piecewise_constant_coder.Rd
 a57c368a73dbfa2a31f0745b6ea5cc67 *man/piecewise_linear.Rd
 56d3ce5dda4ee3fd1c056f7f1b4bd7f2 *man/piecewise_linear_coder.Rd
-ec89880be8929938e1ed4bc7fd31f9bc *man/run_RcppDynProg_tests.Rd
 9d9f12da76c7e991a5db562dfda846b2 *man/score_solution.Rd
 e8aada6d0c038d086415e02cf75725b2 *man/solve_for_partition.Rd
 ca24d39dc95417f361e742053e11f385 *man/solve_for_partitionc.Rd
