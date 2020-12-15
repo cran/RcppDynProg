@@ -1,8 +1,8 @@
 Package: RcppDynProg
 Type: Package
 Title: 'Rcpp' Dynamic Programming
-Version: 0.1.6
-Date: 2020-11-13
+Version: 0.2.0
+Date: 2020-12-15
 Authors@R: c(
     person("John", "Mount", email = "jmount@win-vector.com", role = c("aut", "cre")),
     person("Nina", "Zumel", email = "nzumel@win-vector.com", role = c("aut")),
@@ -21,9 +21,9 @@ RoxygenNote: 7.1.1
 Suggests: tinytest, knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2020-11-13 17:31:12 UTC; johnmount
+Packaged: 2020-12-15 17:58:18 UTC; johnmount
 Author: John Mount [aut, cre],
   Nina Zumel [aut],
   Win-Vector LLC [cph]
 Repository: CRAN
-Date/Publication: 2020-11-13 18:00:06 UTC
+Date/Publication: 2020-12-15 19:20:02 UTC
