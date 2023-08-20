@@ -1,7 +1,11 @@
 
+# RcppDynProg 0.2.1 2023/08/19
+
+  * Work around https://github.com/r-lib/roxygen2/issues/1491
+
 # RcppDynProg 0.2.0 2020/12/15
 
- * Check API invarients, inspired by Akila Chowdary Kolla's fuzz testing.
+ * Check API invariants, inspired by Akila Chowdary Kolla's fuzz testing.
 
 # RcppDynProg 0.1.6 2020/11/13
 
